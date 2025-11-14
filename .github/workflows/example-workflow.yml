@@ -1,5 +1,10 @@
 name: My workflow
-on: push
+on: 
+    push:
+        branches:
+            - main
+
+    workflow_dispatch:
 
 jobs:
     my-first-job:
